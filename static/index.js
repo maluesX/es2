@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '贫弱！贫弱！';
-    if (score <= 99) return '不做人啦';
-    if (score <= 149) return '真的是嗨到不行';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 49) return '我不会停下脚步，而是要追求更高的境界！';
+    if (score <= 99) return 'AMAZING';
+    if (score <= 149) return '这就是爱啊';
+    if (score <= 199) return '斯巴拉西！';
+    return '让我带着爱与惊奇，在此高歌一曲吧~';
 }
 
 function toStr(obj) {
